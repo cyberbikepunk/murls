@@ -1,6 +1,6 @@
 murls
 =====
-Mutable URL Strings: an expressive and convienient API to manipulate URL strings.
+Mutable URL Strings: an expressive API to manipulate URLs.
 
 Usage
 -----
@@ -17,8 +17,9 @@ url = http(site).path(*clade).query(**species)
 url.query(dangerous='false', origin='asia', social=None)
 # 'http://zoo.com/felidae/panthera?dangerous=false&origin=asia'
 ```
+See the docstrings for more details. 
 
 Info
 ----
-Installation: `pip install murls`. Sure, __murls__ reinvents the wheel. It was intended as an mini-exercise in API design. See the docstrings for details. [Apache2 Licensed](http://www.apache.org/licenses/LICENSE-2.0). 
+Installation: `pip install murls`. Sure, __murls__ reinvents the wheel. It was intended as an mini-exercise in API design. [Apache2 Licensed](http://www.apache.org/licenses/LICENSE-2.0). 
 
