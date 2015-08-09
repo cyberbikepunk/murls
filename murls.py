@@ -24,4 +24,4 @@ class Ftps(Url):
 
 
 def test_murls():
-    pass
+    assert
