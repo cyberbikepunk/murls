@@ -1,6 +1,6 @@
 murls
 =====
-Mutable URL strings.
+Mutable URL Strings: an expressive and convienient API to manipulate URL strings.
 
 Usage
 -----
