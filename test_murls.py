@@ -1,6 +1,5 @@
 """ Test suite for the murls module. """
 
-import pytest
 
 from murls import http, https
 
