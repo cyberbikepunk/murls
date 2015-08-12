@@ -17,6 +17,6 @@ def test_path():
 
 def test_query():
     url = http('site.com')
-    assert url.query(foo='bar', bar='foo') == 'http://site.com?foo=bar&bar=foo'
-    assert url.query(foo='foo') == 'http://site.com?foo=foo&bar=foo'
+    assert url.query(foo='bar', bar='foo') == 'http://site.com?foo=bar&bar=foo' or 'http://site.com?bar=foo&foo=bar'
+    assert url.query(foo='foo') == 'http://site.com?foo=foo&bar=foo' or 'http://site.com?bar=foo&foo=foo'
 
